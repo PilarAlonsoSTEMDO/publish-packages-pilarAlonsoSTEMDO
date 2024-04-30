@@ -17,7 +17,7 @@ jobs:
         id: meta
         uses: docker/metadata-action@v5
         with:
-          images: ghcr.io/stemdo/publish-packages-pilaralonsostemdo/game
+          images: ghcr.io/stemdo-labs/publish-packages-pilaralonsostemdo/game
           tags: type=sha
       - name: Login to GHCR
         uses: docker/login-action@v3
